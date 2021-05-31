@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "381593994641",
+    "firebase_url": "https://picturecomposer-a6f70.firebaseio.com",
+    "project_id": "picturecomposer-a6f70",
+    "storage_bucket": "picturecomposer-a6f70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381593994641:android:86a2bb930c8ff5988a4630",
+        "android_client_info": {
+          "package_name": "com.example.picturecomposer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381593994641-v59p0q80p8bhjvgmtdqeoor4q9th8t64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmxoId75YNyXjcO_VhUH_gaUmwITo9PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381593994641-v59p0q80p8bhjvgmtdqeoor4q9th8t64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

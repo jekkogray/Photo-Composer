@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <include
+        layout="@layout/top_action_bar_results"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="top" />
+
+    <ImageView
+        android:id="@+id/input_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="92dp"
+        android:contentDescription="Image View" />
+
+    <FrameLayout
+        android:id="@+id/subject_overlay_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="92dp"
+        android:background="@color/colorTransparent">
+    </FrameLayout>
+
+
+    <include
+        layout="@layout/bottom_action_bar_results"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom" />
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

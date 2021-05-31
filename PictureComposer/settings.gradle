@@ -1,0 +1,4 @@
+include ':sdk'
+include ':library'
+include ':app'
+rootProject.name='PictureComposer'
